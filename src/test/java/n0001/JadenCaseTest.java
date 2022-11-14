@@ -8,8 +8,15 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 class JadenCaseTest {
 
     @Test
-    void toJadenCase() {
-        assertEquals("Abc Def Ghi", JadenCase.toJadenCase("abc def ghi"));
-        assertNull(JadenCase.toJadenCase(""));
+    void toJadenCase1() {
+        assertEquals("Abc Def Ghi", JadenCase.toJadenCase1("abc def ghi"));
+        assertNull(JadenCase.toJadenCase1(""));
     }
+
+    @Test
+    void toJadenCase2() {
+        assertEquals("Abc Def Ghi", JadenCase.toJadenCase2("abc def ghi"));
+        assertNull(JadenCase.toJadenCase2(""));
+    }
+
 }
