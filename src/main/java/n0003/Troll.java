@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/52fba66badcd10859f00097e
+
 package n0003;
 
 import java.util.regex.Pattern;

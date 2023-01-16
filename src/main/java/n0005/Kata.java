@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5259b20d6021e9e14c0010d4
+
 package n0005;
 
 import java.util.ArrayList;
