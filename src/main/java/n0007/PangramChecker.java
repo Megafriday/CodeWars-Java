@@ -6,8 +6,8 @@ public class PangramChecker {
     public boolean check(String sentence) {
         sentence = sentence.toLowerCase();
         String[] alpahbetList = "abcdefghijklmnopqrstuvwxyz".split("");
-        for (int i = 0; i < alpahbetList.length; i++) {
-            if (sentence.indexOf(alpahbetList[i]) == -1) return false;
+        for (String str : alpahbetList) {
+            if (sentence.indexOf(str) == -1) return false;
         }
         return true;
     }
