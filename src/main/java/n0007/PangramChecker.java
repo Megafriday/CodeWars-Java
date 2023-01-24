@@ -5,9 +5,9 @@ package n0007;
 public class PangramChecker {
     public boolean check(String sentence) {
         sentence = sentence.toLowerCase();
-        String[] words = "abcdefghijklmnopqrstuvwxyz".split("");
-        for (int i = 0; i < words.length; i++) {
-            if (sentence.indexOf(words[i]) == -1) return false;
+        String[] alpahbetList = "abcdefghijklmnopqrstuvwxyz".split("");
+        for (int i = 0; i < alpahbetList.length; i++) {
+            if (sentence.indexOf(alpahbetList[i]) == -1) return false;
         }
         return true;
     }
