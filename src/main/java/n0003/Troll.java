@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class Troll {
     public static void main(String[] args) {
         String str = "This website is for losers LOL!";
-        System.out.println(disemvowel1(str));
+        System.out.println(disemvowel1(str));	// Ths wbst s fr lsrs LL! （母音を削除）
     }
 
     public static String disemvowel1(String str) {
@@ -17,7 +17,7 @@ public class Troll {
     }
 
     public static String disemvowel2(String str) {
-        return str.replaceAll("(?i)[aeiou]", ""); // 大文字小文字を区別しない101
+        return str.replaceAll("(?i)[aiueo]", ""); // 大文字小文字を区別しない
         // return str.replaceAll("[aiueo]", "");  // 大文字小文字は区別される
     }
 
