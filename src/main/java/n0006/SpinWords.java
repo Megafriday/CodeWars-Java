@@ -9,7 +9,8 @@ import java.util.stream.Collectors;
 public class SpinWords {
     public static void main(String[] args) {
         var spinWords = new SpinWords();
-        System.out.println(spinWords.spinWords("Hey fellow warriors"));  // "Hey wollef sroirraw"
+		// 目標 "Hey wollef sroirraw"（5 文字以上の単語はすべて逆にします）
+        System.out.println(spinWords.spinWords("Hey fellow warriors"));
     }
 
     public String spinWords(String sentence) {
